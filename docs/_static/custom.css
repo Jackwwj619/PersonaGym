@@ -1,0 +1,24 @@
+/* Custom CSS for LLM_PPOpt documentation */
+
+/* Improve code block styling */
+.highlight {
+    background: #f8f8f8;
+    border-radius: 4px;
+}
+
+/* Table styling */
+table.docutils {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.docutils td, table.docutils th {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Admonition styling */
+.admonition {
+    border-radius: 4px;
+    padding: 12px;
+}
