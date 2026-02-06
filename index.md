@@ -167,7 +167,6 @@ api/utils
 :maxdepth: 1
 :caption: Additional Information
 
-citation
 license
 ```
 
@@ -187,18 +186,6 @@ export OPENAI_API_KEY="your-api-key"
 
 See the [Installation](installation.md) guide for detailed instructions.
 
-## Citation
-
-If you use LLM_PPOpt in your research, please cite:
-
-```bibtex
-@software{llm_ppopt2026,
-  title = {LLM_PPOpt: Personalized Prompt Optimization Data Generation Pipeline},
-  author = {LLM_PPOpt Team},
-  year = {2026},
-  url = {https://github.com/yccm/LLM_PPOpt}
-}
-```
 
 ## License
 
@@ -207,7 +194,6 @@ LLM_PPOpt is released under the MIT License. See [License](license.md) for detai
 ## Community
 
 - **GitHub:** https://github.com/yccm/LLM_PPOpt
-- **Documentation:** https://llm-ppopt.readthedocs.io
 
 ## Indices and Tables
 
