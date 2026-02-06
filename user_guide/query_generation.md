@@ -1,6 +1,6 @@
 # Query Generation
 
-This guide covers the query generation and style transfer system in LLM_PPOpt.
+This guide covers the query generation and style transfer system in PersonaGym.
 
 ## Overview
 

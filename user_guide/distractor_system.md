@@ -15,7 +15,7 @@ This helps train models that are robust to imperfect user inputs.
 
 ## Architecture
 
-LLM_PPOpt provides two distractor models:
+PersonaGym provides two distractor models:
 
 | Model | Description | Use Case |
 |-------|-------------|----------|

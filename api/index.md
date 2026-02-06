@@ -1,10 +1,10 @@
 # API Reference
 
-This section provides detailed API documentation for all LLM_PPOpt modules.
+This section provides detailed API documentation for all PersonaGym modules.
 
 ## Overview
 
-LLM_PPOpt is organized into the following modules:
+PersonaGym is organized into the following modules:
 
 | Module | Description |
 |--------|-------------|

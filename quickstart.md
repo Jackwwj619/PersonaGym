@@ -1,6 +1,6 @@
 # Quick Start
 
-This guide will help you get started with LLM_PPOpt in minutes.
+This guide will help you get started with PersonaGym in minutes.
 
 ## 5-Minute Introduction
 

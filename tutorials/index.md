@@ -1,10 +1,10 @@
 # Tutorials
 
-Step-by-step guides for learning LLM_PPOpt.
+Step-by-step guides for learning PersonaGym.
 
 ## Tutorial Overview
 
-These tutorials will guide you through the key concepts and workflows of LLM_PPOpt.
+These tutorials will guide you through the key concepts and workflows of PersonaGym.
 
 | Tutorial | Description | Duration |
 |----------|-------------|----------|
@@ -18,7 +18,7 @@ These tutorials will guide you through the key concepts and workflows of LLM_PPO
 
 Before starting the tutorials:
 
-1. **Install LLM_PPOpt** following the [Installation Guide](../installation.md)
+1. **Install PersonaGym** following the [Installation Guide](../installation.md)
 2. **Configure API keys** in `.env` or `config.yaml`
 3. **Verify installation** with a test run:
    ```bash

@@ -1,6 +1,6 @@
 # Configuration
 
-This guide covers all configuration options for LLM_PPOpt.
+This guide covers all configuration options for PersonaGym.
 
 ## Configuration File Structure
 
@@ -275,7 +275,7 @@ experiment:
 
 ## Configuration Validation
 
-LLM_PPOpt validates configuration at startup:
+PersonaGym validates configuration at startup:
 
 ```python
 from src.config_validation import validate_config_report

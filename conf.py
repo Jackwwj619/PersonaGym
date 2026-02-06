@@ -10,9 +10,9 @@ sys.path.insert(0, os.path.abspath('..'))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'LLM_PPOpt'
-copyright = '2026, LLM_PPOpt Team'
-author = 'LLM_PPOpt Team'
+project = 'PersonaGym'
+copyright = '2026, PersonaGym Team'
+author = 'PersonaGym Team'
 release = '0.1.0'
 version = '0.1.0'
 

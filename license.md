@@ -1,13 +1,13 @@
 # License
 
-LLM_PPOpt is released under the MIT License.
+PersonaGym is released under the MIT License.
 
 ## MIT License
 
 ```
 MIT License
 
-Copyright (c) 2026 LLM_PPOpt Team
+Copyright (c) 2026 PersonaGym Team
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -30,7 +30,7 @@ SOFTWARE.
 
 ## Third-Party Licenses
 
-LLM_PPOpt uses the following open-source libraries:
+PersonaGym uses the following open-source libraries:
 
 | Library | License | Use |
 |---------|---------|-----|
@@ -45,14 +45,14 @@ LLM_PPOpt uses the following open-source libraries:
 
 The MIT License permits commercial use. You may:
 
-- Use LLM_PPOpt in commercial products
+- Use PersonaGym in commercial products
 - Modify the source code
 - Distribute modified versions
 - Use generated data for commercial purposes
 
 ## Attribution
 
-While not required by the MIT License, we appreciate attribution when using LLM_PPOpt in published work. See [Citation](citation.md) for suggested formats.
+While not required by the MIT License, we appreciate attribution when using PersonaGym in published work.
 
 ## Questions
 

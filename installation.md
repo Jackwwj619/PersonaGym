@@ -1,10 +1,10 @@
 # Installation
 
-This guide covers the installation of LLM_PPOpt and its dependencies.
+This guide covers the installation of PersonaGym and its dependencies.
 
 ## Requirements
 
-LLM_PPOpt requires:
+PersonaGym requires:
 
 - **Python 3.8** or higher
 - **pip** package manager
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 ## API Keys Configuration
 
-LLM_PPOpt requires API keys for LLM providers. You can configure them in two ways:
+PersonaGym requires API keys for LLM providers. You can configure them in two ways:
 
 ### Option 1: Environment Variables (Recommended)
 
@@ -232,4 +232,4 @@ LLM_PPOpt/
 
 ## Next Steps
 
-After installation, check out the [Quick Start](quickstart.md) guide to learn how to use LLM_PPOpt.
+After installation, check out the [Quick Start](quickstart.md) guide to learn how to use PersonaGym.

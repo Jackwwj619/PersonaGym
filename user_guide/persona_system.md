@@ -1,6 +1,6 @@
 # Persona System
 
-This guide covers the persona generation system in LLM_PPOpt.
+This guide covers the persona generation system in PersonaGym.
 
 ## Overview
 

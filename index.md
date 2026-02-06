@@ -1,10 +1,10 @@
-# LLM_PPOpt
+# PersonaGym
 
-Welcome to **LLM_PPOpt** (LLM Personalized Prompt Optimization) - A comprehensive pipeline for generating personalized synthetic training data through diverse persona-based user-AI interactions.
+Welcome to **PersonaGym** - A comprehensive pipeline for generating personalized synthetic training data through diverse persona-based user-AI interactions.
 
-## What is LLM_PPOpt?
+## What is PersonaGym?
 
-LLM_PPOpt implements a **6-stage data generation pipeline** that creates high-quality synthetic datasets by simulating diverse user-AI conversations with different personas. Unlike traditional data collection methods that require real user interactions, LLM_PPOpt generates training data programmatically while maintaining realistic diversity and semantic complexity.
+PersonaGym implements a **6-stage data generation pipeline** that creates high-quality synthetic datasets by simulating diverse user-AI conversations with different personas. Unlike traditional data collection methods that require real user interactions, PersonaGym generates training data programmatically while maintaining realistic diversity and semantic complexity.
 
 The pipeline enables:
 - **Zero-shot transfer** to new personas without fine-tuning
@@ -189,7 +189,7 @@ See the [Installation](installation.md) guide for detailed instructions.
 
 ## License
 
-LLM_PPOpt is released under the MIT License. See [License](license.md) for details.
+PersonaGym is released under the MIT License. See [License](license.md) for details.
 
 ## Community
 

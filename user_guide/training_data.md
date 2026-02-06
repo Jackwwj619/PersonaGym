@@ -1,6 +1,6 @@
 # Training Data
 
-This guide covers the training data collection and export system in LLM_PPOpt.
+This guide covers the training data collection and export system in PersonaGym.
 
 ## Overview
 

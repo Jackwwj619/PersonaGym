@@ -1,6 +1,6 @@
 # Interaction Generation
 
-This guide covers the multi-turn dialogue generation system in LLM_PPOpt.
+This guide covers the multi-turn dialogue generation system in PersonaGym.
 
 ## Overview
 

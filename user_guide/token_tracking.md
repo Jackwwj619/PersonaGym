@@ -1,10 +1,10 @@
 # Token Tracking
 
-This guide covers the token usage tracking and cost analysis system in LLM_PPOpt.
+This guide covers the token usage tracking and cost analysis system in PersonaGym.
 
 ## Overview
 
-LLM_PPOpt automatically tracks all API token usage:
+PersonaGym automatically tracks all API token usage:
 
 - **Per-module tracking**: Persona generation, query generation, interaction, distractor
 - **Per-model tracking**: Usage by each LLM model

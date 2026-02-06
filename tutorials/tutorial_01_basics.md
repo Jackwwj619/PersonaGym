@@ -1,6 +1,6 @@
 # Tutorial 1: Basics
 
-Learn the core concepts of LLM_PPOpt and run your first pipeline.
+Learn the core concepts of PersonaGym and run your first pipeline.
 
 ## Learning Objectives
 
@@ -12,7 +12,7 @@ By the end of this tutorial, you will:
 
 ## Pipeline Overview
 
-LLM_PPOpt generates synthetic training data through 6 stages:
+PersonaGym generates synthetic training data through 6 stages:
 
 ```
 1. Persona Generation    → Create diverse user profiles
