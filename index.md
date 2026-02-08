@@ -69,51 +69,6 @@ python run.py --stage persona --num-personas 100
 python run.py --skip-distractor --num-personas 5
 ```
 
-## Pipeline Architecture
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  Stage 1: Persona Generation                                    │
-│  - Sample features from PersonaBank (30+ dimensions)            │
-│  - Generate system prompts via LLM                              │
-│  Output: output/personas/persona_*.json                         │
-└─────────────────────────────────────────────────────────────────┘
-                              ↓
-┌─────────────────────────────────────────────────────────────────┐
-│  Stage 2: Query Generation & Style Transfer                     │
-│  - Load queries from input/query.jsonl                          │
-│  - Adapt query style to match persona preferences               │
-│  Output: output/queries/persona_*.json                          │
-└─────────────────────────────────────────────────────────────────┘
-                              ↓
-┌─────────────────────────────────────────────────────────────────┐
-│  Stage 3: Interaction Generation                                │
-│  - Simulate 2-5 turn user-assistant conversations               │
-│  - Apply weighted model pool for assistant responses            │
-│  - Simulate user feedback based on persona                      │
-│  Output: output/interactions/interaction_*.json                 │
-└─────────────────────────────────────────────────────────────────┘
-                              ↓
-┌─────────────────────────────────────────────────────────────────┐
-│  Stage 4: Distractor/Noise Application                          │
-│  - Three-layer semantic noise injection                         │
-│  - Extract intent/slots, apply strategies                       │
-│  Output: Noisy versions embedded in interaction records         │
-└─────────────────────────────────────────────────────────────────┘
-                              ↓
-┌─────────────────────────────────────────────────────────────────┐
-│  Stage 5: Training Data Export                                  │
-│  - Convert interactions to TrainingSample format                │
-│  - Export with statistics                                       │
-│  Output: train_samples.json + statistics.json                   │
-└─────────────────────────────────────────────────────────────────┘
-                              ↓
-┌─────────────────────────────────────────────────────────────────┐
-│  Automated: Token Usage Tracking                                │
-│  Output: token_usage_YYYYMMDD_HHMMSS.json                       │
-└─────────────────────────────────────────────────────────────────┘
-```
-
 ## Documentation Structure
 
 ```{toctree}
@@ -194,6 +149,19 @@ PersonaGym is released under the MIT License. See [License](license.md) for deta
 ## Community
 
 - **GitHub:** https://github.com/yccm/LLM_PPOpt
+
+## Citation
+
+If you use this work, please cite:
+
+```bibtex
+@article{ma2026synthetic,
+  title={Synthetic Interaction Data for Scalable Personalization in Large Language Models},
+  author={Ma, Yuchen and Huang, Yue and Wang, Wenjie and Luo, Xiaonan and Zhang, Xiangliang and Feuerriegel, Stefan},
+  year={2026}
+}
+```
+
 
 ## Indices and Tables
 
